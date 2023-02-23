@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,800&display=swap');
+  }
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+}
+h1 {
+    text-align: center;
+}
+#search-button {
+    text-align: center;
+}
+#search-objects {
+    font-size: x-large;
+    position: absolute;
+    left: 15%;
+    top: 5%;
+}
+
+#userInput {
+    width: 20%
+}

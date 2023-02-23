@@ -1,0 +1,14 @@
+[X] Design a sketch layout for the website
+[ ] Upload project to Github
+[ ] Deploy project website via Github
+=========
+[X] Great circle lines from origin airport to destinations
+[ ] Loading screen circle while the airports are being fetched
+[ ] Improvement to search (possibility to search by ICAO code, or search by natural language)
+[X] Change basemap
+[X] Change marker icons
+[ ] Change fonts to a much nicer one
+[ ] Add credits/about page
+[ ] Add wacky icons
+[ ] Fix popup anchor
+[ ] Add additional info when the airport is searched: name, total count of destinations etc...

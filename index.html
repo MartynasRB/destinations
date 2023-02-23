@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <title>Airport Destination App</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
+     integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+     crossorigin="">
+  </head>
+
+  <body>
+    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
+    integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
+    crossorigin=""></script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet.geodesic"></script>
+    <script type="module" src="index.js"></script>
+    <!-- <script type="module" src="mapping.js"></script> -->
+    <div class="search-data">
+      <h1>Airport search</h1>
+      <div id="search-button">
+          <input type="text" id="userInput" placeholder="Enter the Wikipedia URL of the origin airport..." />
+          <button id="airport-search" type="button">Search for destinations</button>
+      </div>
+      <p id="search-objects"></p>
+      <p id="search-time"></p>
+      <p id="airport-result"></p>
+    </div>
+    <div id="map" style="width: 100%; height: 85vh;"></div>
+  </body>
+</html>
