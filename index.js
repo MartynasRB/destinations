@@ -15,7 +15,7 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
 
 //create new marker icon for airports
 var airportIcon = L.icon ({
-  iconUrl: './icons/airport.png/',
+  iconUrl: './icons/airport.PNG/',
   iconSize: [43,43],
   iconAnchor: [21.5,43],
   popupAnchor: [0,-43],
@@ -23,7 +23,7 @@ var airportIcon = L.icon ({
 
 //create new marker icon for origin airport
 var originAirportIcon = L.icon ({
-  iconUrl: './icons/airport_origin.png/',
+  iconUrl: './icons/airport_origin.PNG/',
   iconSize: [43,43],
   iconAnchor: [21.5,43],
 })
