@@ -31,7 +31,7 @@ var originAirportIcon = L.icon ({
 //geodetic line style options
 const options = {
   weight: 2,
-  opacity: 1,
+  opacity: 0.5,
   color: 'black',
 };
 
